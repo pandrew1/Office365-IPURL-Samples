@@ -9,7 +9,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "",
-  "description": ""
+  "author": "Paul Andrew",
+  "license": "ISC",
+  "description": "Formats JSON output from changes web services in HTML for Ofice 365 IPURL updates",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandrew1/Office365-IPURL-Samples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pandrew1/Office365-IPURL-Samples/issues"
+  },
+  "homepage": "https://github.com/pandrew1/Office365-IPURL-Samples#readme"
 }
