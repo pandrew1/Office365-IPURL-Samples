@@ -1,29 +1,22 @@
 const axios = require('axios');
 
 module.exports = async function (context, req) {
-    if (req.query.since && req.query.instance && req.query.clientrequestid && req.query.name && req.query.key) {
-        if (req.query.key == 'dontusethis') {
-            context.log('JavaScript HTTP trigger function processing a request for ' + req.query.name);
-            var url = "http://endpoints.office.com/changes/" + req.query.instance + "/" + req.query.since + "?clientrequestid=" + req.query.clientrequestid;
-            var response = await axios.get(url);
-            var changes = JSON.parse(JSON.stringify(response.data))
-            context.res = {
-                headers: {
-                    "Content-Type": "text/html"
-                },
-                body: "<!DOCTYPE html><html><head><title>Table of changes</title>" +
-                "<style>table, th, td {border: 1px solid black;border-collapse: collapse;font-family: Segoe UI, Helvetica, sans-serif;}" +
-                "th, td {padding: 8px;} p {font-family: Segoe UI, Helvetica, sans-serif;} h2 {font-family: Segoe UI, Helvetica, sans-serif;}" +
-                "</style></head><body>" +
-                "<p>Recent changes for Office 365 IP Addresses and URLs. For more information please see <a href='http://aka.ms/ipurlws'>http://aka.ms/ipurlws</a></p>" +
-                formatChanges(changes) + "</body></html>"
-            };
-        } else {
-            context.log('JavaScript HTTP trigger function processed a request with an invalid key. name=' + req.query.name );
-            context.res = {
-                status: 401
-            };
-        }
+    if (req.query.since && req.query.instance && req.query.clientrequestid && req.query.name) {
+        context.log('JavaScript HTTP trigger function processing a request for ' + req.query.name);
+        var url = "http://endpoints.office.com/changes/" + req.query.instance + "/" + req.query.since + "?clientrequestid=" + req.query.clientrequestid;
+        var response = await axios.get(url);
+        var changes = JSON.parse(JSON.stringify(response.data))
+        context.res = {
+            headers: {
+                "Content-Type": "text/html"
+            },
+            body: "<!DOCTYPE html><html><head><title>Table of changes</title>" +
+            "<style>table, th, td {border: 1px solid black;border-collapse: collapse;font-family: Segoe UI, Helvetica, sans-serif;}" +
+            "th, td {padding: 8px;} p {font-family: Segoe UI, Helvetica, sans-serif;} h2 {font-family: Segoe UI, Helvetica, sans-serif;}" +
+            "</style></head><body>" +
+            "<p>Recent changes for Office 365 IP Addresses and URLs. For more information please see <a href='http://aka.ms/ipurlws'>http://aka.ms/ipurlws</a></p>" +
+            formatChanges(changes) + "</body></html>"
+        };
     } else {
         context.log('JavaScript HTTP trigger function processed a request with an invalid parameters.');
         context.res = {

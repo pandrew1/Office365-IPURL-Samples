@@ -1,2 +1,6 @@
 
 FlowNotifications/AzureFunction/node_modules
+FlowNotifications/AzureFunction/.vscode
+FlowNotifications/AzureFunction/bin
+FlowNotifications/AzureFunction/Debug
+FlowNotifications/AzureFunction/obj
