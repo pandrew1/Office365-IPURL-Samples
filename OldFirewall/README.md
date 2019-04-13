@@ -1,5 +1,5 @@
 # Office365-IPURL-Samples
-Sample code for connecting with the Office 365 IP Addres and URL web services
+Sample code for connecting with the Office 365 IP Address and URL web services
 
  Generate-OldFirewall-XML.ps1
 This sample is for customers who have a dependency on one of the old XML downloads that was provided for Office 365. Notification was provided on 4/2/2018 that these would be deprecated and the files are no longer updated since 10/2/2018. There is a new JSON format output available with additional attributes from a web service as documented at http://aka.ms/ipurlblog.
