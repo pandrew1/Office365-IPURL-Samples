@@ -20,7 +20,7 @@ Once you&#39;ve signed up you can go to flow at [https://flow.microsoft.com](htt
 
 At the flow home page, select My Flows from the left side navigation menu. On the My Flows page you can select + New at the top of the page and select Create from blank to create your flow.
 
-![alt text](img/image002.jpg "Figure 2")
+![alt text](img/image002.png "Figure 2")
 
 _Figure 2 - Create from blank command_
 
@@ -32,7 +32,7 @@ The RSS feed trigger is not very easy to test so you will want to use the Recurr
 
 Let&#39;s keep going with the RSS trigger here. You can delete it and add the Recurrence to test and then delete your Recurrence and add an RSS trigger back if testing and debugging is needed.
 
-![alt text](img/image003.jpg "Figure 3")
+![alt text](img/image003.png "Figure 3")
 
 _Figure 3 - Search triggers command_
 
