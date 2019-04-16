@@ -106,7 +106,7 @@ Add a second HTTP action and configure it for a GET operation. This second HTTP 
 
 The URI for this HTTP GET is going to be more complex than in the first HTTP GET action as it includes a dynamic parameter. Enter the first part of the URI as:
 
-http://endpoints.office.com/changes/worldwide/
+https://endpoints.office.com/changes/worldwide/
 
 Then click Expression in the expanded right properties window and enter a reference to the second version item from the Parse JSON action. This selects the version prior to the current version so that you can see the latest changes.
 
