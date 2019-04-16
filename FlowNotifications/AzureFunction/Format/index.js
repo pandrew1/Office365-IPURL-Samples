@@ -117,7 +117,7 @@ function formatSub(node){
     }
     if (isdef(node.required)) {
         if (!first) { out += ", "}; first = false
-        out += "reqiured: " + node.required 
+        out += "required: " + node.required 
     }
     if (isdef(node.tcpPorts)) {
         if (!first) { out += ", "}; first = false
