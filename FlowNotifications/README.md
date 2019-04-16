@@ -4,7 +4,7 @@ This article is an updated method for demonstrating how you can use Microsoft Fl
 
 I&#39;ve divided this article into two parts since the first part is much simpler than the second. The first part is to create the flow and get an email notification and the second part is to format the change list in English text instead of JSON.
 
-The Flow created in this article is not supported by Microsoft and you should follow your own development review processes before relying on it in a production environment. If you make improvements to this Flow or have questions, we would like to hear from you. Let us know in the comments below.
+The Flow created in this article is not supported by Microsoft and you should follow your own development review processes before relying on it in a production environment.
 
 ![alt text](img/image001.jpg "Figure 1")
 
@@ -120,7 +120,7 @@ Click OK to accept the Expression and then enter the second part of the URI.
 
 ?clientrequestid=bad1f103-bad1-f103-0123-456789abcdef
 
-![alt text](img/image0015.jpg "Figure 15")
+![alt text](img/image015.jpg "Figure 15")
 
 _Figure 15 – Expression and second part of URI entered_
 
