@@ -245,7 +245,7 @@ I&#39;m using it on Windows. Get Visual Studio Code for Windows here: [https://c
 
 Get the Azure Function App extension here: [https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 
-As described on the extension page, you will need to install npm and the Azure Functions module.
+As described on the extension page, you will need to install npm and the Azure Functions module. Npm is installed with Node.js from https://nodejs.org/en/download/.
 
 npm i -g azure-functions-core-tools@2
 
@@ -257,7 +257,7 @@ Choose a home directory on your local machine and clone the git repository for t
 
 At the git command prompt type:
 
-git clone [https://github.com/pandrew1/Office365-IPURL-Samples/tree/master/FlowNotifications](https://github.com/pandrew1/Office365-IPURL-Samples/tree/master/FlowNotifications)
+git clone [https://github.com/pandrew1/Office365-IPURL-Samples](https://github.com/pandrew1/Office365-IPURL-Samples)
 
 Using your npm prompt change to the AzureFunction directory where the file package.json is located and fetch the dependencies with:
 
