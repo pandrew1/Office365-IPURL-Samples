@@ -40,7 +40,7 @@ Click the search as shown in Figure 2 and enter RSS in the search box. It will b
 
 There&#39;s one parameter for the RSS trigger which is the URL to look up. This URL will be custom for the service instance that you want to monitor. You can use this URL to get the RSS feed for the most commonly used service instance. It&#39;s called Office 365 Worldwide Commercial/GCC.
 
-https://endpoints.office.com/version/worldwide?format=rss&amp;AllVersions&amp;clientrequestid=bad1f103-bad1-f103-0123-456789abcdef
+https://endpoints.office.com/version/worldwide?format=rss&AllVersions&clientrequestid=bad1f103-bad1-f103-0123-456789abcdef
 
 ![alt text](img/image004.jpg "Figure 4")
 
