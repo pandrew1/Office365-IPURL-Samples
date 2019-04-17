@@ -62,7 +62,7 @@ _Figure 6 – New step command_
 
 Configure the HTTP action to GET the version list for the endpoints from the web service.
 
-https://endpoints.office.com/version/worldwide?allversions&amp;clientrequestid=bad1f103-bad1-f103-0123-456789abcdef
+https://endpoints.office.com/version/worldwide?allversions&clientrequestid=bad1f103-bad1-f103-0123-456789abcdef
 
 ![alt text](img/image007.jpg "Figure 7")
 
@@ -329,7 +329,7 @@ _Figure 39 – The HTTP 2 activity to be updated_
 
 We&#39;re going to replace the URI with the URI to your new Azure Function. We will keep the Flow expression that identifies the previous version number but update the first static part of the URI. The first part should point to your Azure Function URL. Here is my test one, but you need to use your own URL and your own code. The second static part of the URI can be removed.
 
-https://a-unique-name.azurewebsites.net/api/format?code=pUDGdBY4yxeLOdAJB8LX3nuuuQ2T/xG0/xnzWhoBy0XgU4pjzqbURA==&amp;name=paul&amp;instance=worldwide&amp;clientrequestid=bad1f103-bad1-f103-0123-456789abcdef&amp;since=
+https://a-unique-name.azurewebsites.net/api/format?code=pUDGdBY4yxeLOdAJB8LX3nuuuQ2T/xG0/xnzWhoBy0XgU4pjzqbURA==&name=paul&instance=worldwide&clientrequestid=bad1f103-bad1-f103-0123-456789abcdef&since=
 
 ![alt text](img/image040.jpg "Figure 40")
 
