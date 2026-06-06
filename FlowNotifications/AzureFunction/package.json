@@ -2,7 +2,7 @@
   "name": "formatchanges",
   "version": "1.0.0",
   "dependencies": {
-    "axios": "0.31.1"
+    "axios": "0.32.0"
   },
   "main": "index.js",
   "scripts": {
